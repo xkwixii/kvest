@@ -9,34 +9,35 @@ using System.Windows.Forms;
 
 namespace game
 {
-    public partial class Form1 : Form
+    public partial class var1 : Form
     {
-        public Form1()
+        public var1()
         {
             InitializeComponent();
             this.StartPosition = FormStartPosition.CenterScreen;
         }
 
-        private void exitgame_Click(object sender, EventArgs e)
+        private void label1_Click(object sender, EventArgs e)
         {
-            this.Close();
+
         }
 
-        private void startgame_Click(object sender, EventArgs e)
+     
+
+     
+
+        private void button3_Click(object sender, EventArgs e)
         {
-            opisanie newForm = new opisanie();    
+            var3 newForm = new var3();
             newForm.Show();
             this.Hide();
         }
 
-        private void menu_Click(object sender, EventArgs e)
+        private void button4_Click(object sender, EventArgs e)
         {
-
-        }
-
-        private void label1_Click(object sender, EventArgs e)
-        {
-
+            var4 newForm = new var4();
+            newForm.Show();
+            this.Hide();
         }
     }
 }

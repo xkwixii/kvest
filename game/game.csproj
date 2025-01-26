@@ -44,14 +44,101 @@
     <Reference Include="System.Xml" />
   </ItemGroup>
   <ItemGroup>
+    <Compile Include="d1.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="d1.Designer.cs">
+      <DependentUpon>d1.cs</DependentUpon>
+    </Compile>
     <Compile Include="Form1.cs">
       <SubType>Form</SubType>
     </Compile>
     <Compile Include="Form1.Designer.cs">
       <DependentUpon>Form1.cs</DependentUpon>
     </Compile>
+    <Compile Include="opisanie.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="opisanie.Designer.cs">
+      <DependentUpon>opisanie.cs</DependentUpon>
+    </Compile>
     <Compile Include="Program.cs" />
     <Compile Include="Properties\AssemblyInfo.cs" />
+    <Compile Include="sisadmin.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="sisadmin.Designer.cs">
+      <DependentUpon>sisadmin.cs</DependentUpon>
+    </Compile>
+    <Compile Include="ubors.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="ubors.Designer.cs">
+      <DependentUpon>ubors.cs</DependentUpon>
+    </Compile>
+    <Compile Include="uborsk1.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="uborsk1.Designer.cs">
+      <DependentUpon>uborsk1.cs</DependentUpon>
+    </Compile>
+    <Compile Include="uborsk2.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="uborsk2.Designer.cs">
+      <DependentUpon>uborsk2.cs</DependentUpon>
+    </Compile>
+    <Compile Include="var1.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="var1.Designer.cs">
+      <DependentUpon>var1.cs</DependentUpon>
+    </Compile>
+    <Compile Include="var3.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="var3.Designer.cs">
+      <DependentUpon>var3.cs</DependentUpon>
+    </Compile>
+    <Compile Include="var4.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="var4.Designer.cs">
+      <DependentUpon>var4.cs</DependentUpon>
+    </Compile>
+    <Compile Include="video.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="video.Designer.cs">
+      <DependentUpon>video.cs</DependentUpon>
+    </Compile>
+    <Compile Include="videok1.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="videok1.Designer.cs">
+      <DependentUpon>videok1.cs</DependentUpon>
+    </Compile>
+    <Compile Include="videok2.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="videok2.Designer.cs">
+      <DependentUpon>videok2.cs</DependentUpon>
+    </Compile>
+    <Compile Include="videoneznak.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="videoneznak.Designer.cs">
+      <DependentUpon>videoneznak.cs</DependentUpon>
+    </Compile>
+    <EmbeddedResource Include="d1.resx">
+      <DependentUpon>d1.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Form1.resx">
+      <DependentUpon>Form1.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="opisanie.resx">
+      <DependentUpon>opisanie.cs</DependentUpon>
+    </EmbeddedResource>
     <EmbeddedResource Include="Properties\Resources.resx">
       <Generator>ResXFileCodeGenerator</Generator>
       <LastGenOutput>Resources.Designer.cs</LastGenOutput>
@@ -61,6 +148,39 @@
       <AutoGen>True</AutoGen>
       <DependentUpon>Resources.resx</DependentUpon>
     </Compile>
+    <EmbeddedResource Include="sisadmin.resx">
+      <DependentUpon>sisadmin.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="ubors.resx">
+      <DependentUpon>ubors.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="uborsk1.resx">
+      <DependentUpon>uborsk1.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="uborsk2.resx">
+      <DependentUpon>uborsk2.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="var1.resx">
+      <DependentUpon>var1.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="var3.resx">
+      <DependentUpon>var3.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="var4.resx">
+      <DependentUpon>var4.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="video.resx">
+      <DependentUpon>video.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="videok1.resx">
+      <DependentUpon>videok1.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="videok2.resx">
+      <DependentUpon>videok2.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="videoneznak.resx">
+      <DependentUpon>videoneznak.cs</DependentUpon>
+    </EmbeddedResource>
     <None Include="Properties\Settings.settings">
       <Generator>SettingsSingleFileGenerator</Generator>
       <LastGenOutput>Settings.Designer.cs</LastGenOutput>

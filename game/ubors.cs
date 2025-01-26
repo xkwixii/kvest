@@ -9,34 +9,26 @@ using System.Windows.Forms;
 
 namespace game
 {
-    public partial class Form1 : Form
+    public partial class ubors : Form
     {
-        public Form1()
+        public ubors()
         {
             InitializeComponent();
             this.StartPosition = FormStartPosition.CenterScreen;
         }
 
-        private void exitgame_Click(object sender, EventArgs e)
+        private void button3_Click(object sender, EventArgs e)
         {
-            this.Close();
-        }
-
-        private void startgame_Click(object sender, EventArgs e)
-        {
-            opisanie newForm = new opisanie();    
+            uborsk1 newForm = new uborsk1();
             newForm.Show();
             this.Hide();
         }
 
-        private void menu_Click(object sender, EventArgs e)
+        private void button4_Click(object sender, EventArgs e)
         {
-
-        }
-
-        private void label1_Click(object sender, EventArgs e)
-        {
-
+            uborsk2 newForm = new uborsk2();
+            newForm.Show();
+            this.Hide();
         }
     }
 }

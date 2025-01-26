@@ -9,27 +9,27 @@ using System.Windows.Forms;
 
 namespace game
 {
-    public partial class Form1 : Form
+    public partial class videok2 : Form
     {
-        public Form1()
+        public videok2()
         {
             InitializeComponent();
             this.StartPosition = FormStartPosition.CenterScreen;
         }
 
-        private void exitgame_Click(object sender, EventArgs e)
+        private void button1_Click(object sender, EventArgs e)
         {
+            List<Form> openForms = new List<Form>(Application.OpenForms.Cast<Form>());
+
+            foreach (Form form in openForms)
+            {
+                form.Close();
+            }
+
             this.Close();
         }
 
-        private void startgame_Click(object sender, EventArgs e)
-        {
-            opisanie newForm = new opisanie();    
-            newForm.Show();
-            this.Hide();
-        }
-
-        private void menu_Click(object sender, EventArgs e)
+        private void label2_Click(object sender, EventArgs e)
         {
 
         }
