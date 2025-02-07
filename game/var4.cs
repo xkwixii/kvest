@@ -15,6 +15,8 @@ namespace game
         {
             InitializeComponent();
             this.StartPosition = FormStartPosition.CenterScreen;
+            Image backgroundImage = Image.FromFile("5.jpg");
+            this.BackgroundImage = backgroundImage;
         }
 
         private void button1_Click_1(object sender, EventArgs e)

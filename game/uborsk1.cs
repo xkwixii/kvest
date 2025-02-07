@@ -15,6 +15,8 @@ namespace game
         {
             InitializeComponent();
             this.StartPosition = FormStartPosition.CenterScreen;
+            Image backgroundImage = Image.FromFile("10.jpg");
+            this.BackgroundImage = backgroundImage;
         }
 
         private void label2_Click(object sender, EventArgs e)

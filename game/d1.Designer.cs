@@ -40,9 +40,10 @@ namespace game
             // label1
             // 
             this.label1.AutoSize = true;
+            this.label1.BackColor = System.Drawing.Color.Transparent;
             this.label1.Font = new System.Drawing.Font("Marta", 21.75F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.label1.ForeColor = System.Drawing.Color.FromArgb(((int)(((byte)(128)))), ((int)(((byte)(255)))), ((int)(((byte)(128)))));
-            this.label1.Location = new System.Drawing.Point(270, 23);
+            this.label1.Location = new System.Drawing.Point(270, 29);
             this.label1.Name = "label1";
             this.label1.Size = new System.Drawing.Size(444, 105);
             this.label1.TabIndex = 0;
@@ -52,6 +53,7 @@ namespace game
             // label2
             // 
             this.label2.AutoSize = true;
+            this.label2.BackColor = System.Drawing.Color.Transparent;
             this.label2.Font = new System.Drawing.Font("Microsoft Sans Serif", 15.75F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(204)));
             this.label2.ForeColor = System.Drawing.Color.White;
             this.label2.Location = new System.Drawing.Point(94, 146);
@@ -94,7 +96,7 @@ namespace game
             this.button4.Name = "button4";
             this.button4.Size = new System.Drawing.Size(438, 66);
             this.button4.TabIndex = 5;
-            this.button4.Text = "Обратиться к коллегам.";
+            this.button4.Text = "Обратиться к коллегам";
             this.button4.UseVisualStyleBackColor = false;
             this.button4.Click += new System.EventHandler(this.button4_Click);
             // 

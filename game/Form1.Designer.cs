@@ -86,10 +86,10 @@ namespace game
             // rule
             // 
             this.rule.AutoSize = true;
-            this.rule.BackColor = System.Drawing.Color.Black;
+            this.rule.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(64)))), ((int)(((byte)(64)))), ((int)(((byte)(64)))));
             this.rule.Font = new System.Drawing.Font("Arturito Slab", 11.25F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.rule.ForeColor = System.Drawing.Color.White;
-            this.rule.Location = new System.Drawing.Point(267, 483);
+            this.rule.Location = new System.Drawing.Point(292, 481);
             this.rule.Name = "rule";
             this.rule.Size = new System.Drawing.Size(448, 27);
             this.rule.TabIndex = 3;
@@ -138,6 +138,7 @@ namespace game
             // 
             // panel3
             // 
+            this.panel3.BackColor = System.Drawing.Color.Transparent;
             this.panel3.Controls.Add(this.panel1);
             this.panel3.Controls.Add(this.menu);
             this.panel3.Controls.Add(this.panel2);

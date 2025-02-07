@@ -40,7 +40,7 @@ namespace game
             this.button1.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(64)))), ((int)(((byte)(64)))), ((int)(((byte)(64)))));
             this.button1.Font = new System.Drawing.Font("Metro", 8.249999F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(204)));
             this.button1.ForeColor = System.Drawing.Color.FromArgb(((int)(((byte)(128)))), ((int)(((byte)(255)))), ((int)(((byte)(128)))));
-            this.button1.Location = new System.Drawing.Point(422, 408);
+            this.button1.Location = new System.Drawing.Point(150, 222);
             this.button1.Name = "button1";
             this.button1.Size = new System.Drawing.Size(189, 39);
             this.button1.TabIndex = 12;
@@ -51,9 +51,11 @@ namespace game
             // label2
             // 
             this.label2.AutoSize = true;
+            this.label2.BackColor = System.Drawing.Color.Transparent;
+            this.label2.Cursor = System.Windows.Forms.Cursors.Default;
             this.label2.Font = new System.Drawing.Font("Marta", 21.75F, System.Drawing.FontStyle.Bold);
             this.label2.ForeColor = System.Drawing.Color.FromArgb(((int)(((byte)(128)))), ((int)(((byte)(255)))), ((int)(((byte)(128)))));
-            this.label2.Location = new System.Drawing.Point(453, 126);
+            this.label2.Location = new System.Drawing.Point(451, 20);
             this.label2.Name = "label2";
             this.label2.Size = new System.Drawing.Size(110, 35);
             this.label2.TabIndex = 11;
@@ -62,11 +64,12 @@ namespace game
             // label1
             // 
             this.label1.AutoSize = true;
+            this.label1.BackColor = System.Drawing.Color.Transparent;
             this.label1.Font = new System.Drawing.Font("Microsoft Sans Serif", 15.75F, System.Drawing.FontStyle.Bold);
             this.label1.ForeColor = System.Drawing.Color.White;
-            this.label1.Location = new System.Drawing.Point(40, 242);
+            this.label1.Location = new System.Drawing.Point(30, 70);
             this.label1.Name = "label1";
-            this.label1.Size = new System.Drawing.Size(966, 75);
+            this.label1.Size = new System.Drawing.Size(550, 125);
             this.label1.TabIndex = 10;
             this.label1.Text = resources.GetString("label1.Text");
             // 

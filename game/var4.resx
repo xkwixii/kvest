@@ -117,4 +117,11 @@
   <resheader name="writer">
     <value>System.Resources.ResXResourceWriter, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
   </resheader>
+  <data name="label1.Text" xml:space="preserve">
+    <value>Вы спрашиваете коллег, не видели ли они 
+чего-нибудь странного вчера вечером. 
+Один из них вспоминает,что видел, как 
+уборщица долго стояла возле вашего стола, 
+хотя обычно она просто проходит мимо.</value>
+  </data>
 </root>

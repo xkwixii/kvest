@@ -37,9 +37,10 @@ namespace game
             // label2
             // 
             this.label2.AutoSize = true;
+            this.label2.BackColor = System.Drawing.Color.Transparent;
             this.label2.Font = new System.Drawing.Font("Marta", 21.75F, System.Drawing.FontStyle.Bold);
             this.label2.ForeColor = System.Drawing.Color.FromArgb(((int)(((byte)(128)))), ((int)(((byte)(255)))), ((int)(((byte)(128)))));
-            this.label2.Location = new System.Drawing.Point(446, 103);
+            this.label2.Location = new System.Drawing.Point(447, 401);
             this.label2.Name = "label2";
             this.label2.Size = new System.Drawing.Size(110, 35);
             this.label2.TabIndex = 8;
@@ -49,9 +50,10 @@ namespace game
             // label1
             // 
             this.label1.AutoSize = true;
+            this.label1.BackColor = System.Drawing.Color.Transparent;
             this.label1.Font = new System.Drawing.Font("Microsoft Sans Serif", 15.75F, System.Drawing.FontStyle.Bold);
             this.label1.ForeColor = System.Drawing.Color.White;
-            this.label1.Location = new System.Drawing.Point(33, 219);
+            this.label1.Location = new System.Drawing.Point(37, 458);
             this.label1.Name = "label1";
             this.label1.Size = new System.Drawing.Size(978, 50);
             this.label1.TabIndex = 6;
@@ -64,7 +66,7 @@ namespace game
             this.button1.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(64)))), ((int)(((byte)(64)))), ((int)(((byte)(64)))));
             this.button1.Font = new System.Drawing.Font("Metro", 8.249999F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(204)));
             this.button1.ForeColor = System.Drawing.Color.FromArgb(((int)(((byte)(128)))), ((int)(((byte)(255)))), ((int)(((byte)(128)))));
-            this.button1.Location = new System.Drawing.Point(415, 385);
+            this.button1.Location = new System.Drawing.Point(417, 541);
             this.button1.Name = "button1";
             this.button1.Size = new System.Drawing.Size(189, 39);
             this.button1.TabIndex = 9;
